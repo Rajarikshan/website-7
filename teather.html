@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./teacher.css">
+</head>
+<body>
+    
+    <div class="card">
+                    <!-- navbar start -->
+    
+
+
+         <nav class="navbar">
+            <a class="etech" href="index.html">Etech.</a>
+            
+            <div class="hamburger" onclick="toggleMenu()">
+                <i id="menu-icon" class="fa-solid fa-bars"></i>
+            </div> 
+        
+            <div class="navbar1" id="navbar-links">
+                <a href="about.html">Course <i class="fa-solid fa-angle-down"></i></a>
+                <a href="teather.html">Teacher <i class="fa-solid fa-angle-down"></i></a>
+                <a href="course.html">About </a>
+            </div>
+        
+            <div class="free">
+                <button class="enroll"><a href="./enroll.html">Enroll Now</a></button>
+                <button class="trial"><a href="./enroll.html">Free Trial</a></button>
+        </div>
+        </nav>
+     
+        <!-- navbar end -->
+    
+                        <!-- topcard paragraph -->
+  <div class="topcard">
+         <span><span class="e">E</span>mpower,</span>
+         <span><span class="e">E</span>ducate,</span>
+         <span>and,</span><br/>
+         <span><span class="e">E</span>arn,-</span>
+         <span><span class="e">E</span>mpower, an</span><br/>
+         <span><span class="e">I</span>nstrctor <span class="e">T</span>oday,</span>
+        </div> 
+        
+
+  <div class="bottomcard">
+            <div class="leftcard1">
+            <h1>All Teachers Welcome</h1>
+            <p>unlock your potential by becomeing a 
+                teacher with us at Etech. inspire 
+                and empower of all ages, background and 
+                ability 
+            </p>
+            </div>
+
+ <div class="rightcard1">
+    <h1>If you Are a Certified Teacher, <br/>
+        Then <span>Become An Istructor</span>
+    </h1>
+                            <!-- name input -->
+ <div class="input">
+<div class="input1"> <label>Name</label><br/><br/> <input/></div>
+
+<div class="input2"><label>Name</label><br/><br/><input/></div>
+
+</div> 
+                        <!-- tutor input -->
+
+
+ <div class="input3"><label>TuTor FORISSPECIFY THE COURSE</label><br/><br/><input/></div> 
+    
+                         <!-- email input -->
+
+
+ <div class="input">
+    <div class="input1"> <label>EMAIL ADDRESS</label><br/><br/> <input/></div>
+    
+    <div class="input2"><label>Country</label><br/><br/><input/></div>
+    </div>      
+  
+
+                          <!-- city input -->
+
+    
+    <div class="input">
+        <div class="input1"> <label>City</label><br/><br/> <input/></div>
+        
+        <div class="input2"><label>Pincode</label><br/><br/><input/></div>
+        
+        </div> 
+
+
+                        <!-- phone input -->
+         <div class="input4"><label>PHONE NUMBER</label><br/><br/><input/></div>
+        <div class="input4"><label>UPLOAD RESUME</label><br/><br/><input/></div>
+
+<button class="submit"><a href="./enroll.html">Submit</a></button>
+    </div>
+    </div> 
+
+</div> 
+
+
+
+<!-- footer section start -->
+
+    <footer class="footer">
+    <div class="footer1">
+        <div class=" footer11">
+        <img src="./etech.png" />
+        <h2>Etech.</h2>
+    </div>
+
+    <p>Etech academy is a leading online learning
+        plattform that offers experts-led courses, hands-on training.
+        and carrier focused education to help learner update grow and success
+        in the ever - evolving tech industry
+    </p>
+
+    </div>
+
+
+ <div class="footer2">
+    <h2>Quick Link </h2>
+      <span><i class="fa-solid fa-circle"></i>About us</span>
+      <span><i class="fa-solid fa-circle"></i>Course</span>
+      <span><i class="fa-solid fa-circle"></i>Become an instructor</span>
+      <span><i class="fa-solid fa-circle"></i>FAQS</span>
+      <span><i class="fa-solid fa-circle"></i>Contact</span>
+
+ </div>
+
+ <div class="footer2">
+    <h2>Social Media </h2>
+      <span><i class="fa-brands fa-instagram"></i>Etech@instagram</span>
+      <span><i class="fa-brands fa-facebook"></i>Etech@facebook</span>
+      <span><i class="fa-brands fa-youtube"></i>Etech@youtube</span>
+      <span><i class="fa-brands fa-x-twitter"></i>Etech@x</span>
+      <span><i class="fa-brands fa-linkedin"></i>Etech@linkedin</span>
+
+ </div>
+
+ <div class="footer3">
+   <h2>Contact:</h2>
+   <div class="footer3">
+      <p><i class="fa-solid fa-mobile-screen"></i>(629) 555-0129</p>
+      <p><i class="fa-solid fa-earth-americas"></i>2715 Ash Dr.san <br/>
+        jose, south Dakota<br/>
+    83475 </p>
+    <p><i class="fa-regular fa-envelope"></i>Example@gmail.com</p>
+</div>
+
+ </div>
+
+</footer>    
+<!-- footer section end -->
+
+
+<script>
+    
+// navbar js
+
+function toggleMenu() {
+   var menu = document.getElementById('navbar-links');
+   var icon=document.getElementById("menu-icon");
+   if (menu.style.display === 'flex') {
+       menu.style.display = 'none';
+       icon.classList.remove('fa-xmark');
+       icon.classList.add('fa-bars');
+   } else {
+       menu.style.display = 'flex';
+       icon.classList.remove('fa-bars');
+       icon.classList.add('fa-xmark')
+   }
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ENROLL PAGE</title>
+    <link rel="stylesheet" href="./enroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+
+    <div class="card">
+        <!-- navbar start -->
+
+<nav class="navbar">
+<a class="etech" href="index.html">Etech.</a>
+
+<div class="hamburger" onclick="toggleMenu()">
+    <i id="menu-icon" class="fa-solid fa-bars"></i>
+</div> 
+
+<div class="navbar1" id="navbar-links">
+    <a href="about.html">Course <i class="fa-solid fa-angle-down"></i></a>
+    <a href="teather.html">Teacher <i class="fa-solid fa-angle-down"></i></a>
+    <a href="course.html">About <i class="fa-solid fa-angle-down"></i></a>
+</div>
+
+<div class="free">
+    <button class="enroll">Enroll Now</button>
+    <button class="trial">Free Trial</button>
+</div>
+</nav>
+
+<!-- navbar end -->
+
+
+
+
+<div class="leftcard1">
+    <div class="leftcard11"> 
+    <h1>All learners Welcome</h1>
+    <p>unlock your potential with ETech inclisive
+        coding programs, designed for all ages,
+        background, and abilities.
+    </p>
+    </div>
+
+    <img src="./circle-orange.png" alt="">
+
+    </div>
+
+    <div class="leftcard2">
+
+        <div class="leftcard22">
+        <span>To partner with us</span><br/><br/><br/>
+         <h1>Collaborations</h1>
+         <p>interested in working with us? React out to explore Collaboration
+
+         </p>
+
+         <a>email us Etech@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+
+
+
+
+
+<!-- inputcard start -->
+
+    <div class="bottomcard">
+   
+
+        <div class="rightcard1">
+        <h1> Please select the Learning format you prefer
+        </h1>
+                            <!-- name input -->
+        <div class="input">
+        <div class="input1"> <label>Student's First Name</label><br/><br/> <input/></div>
+        
+        <div class="input2"><label>Last Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><br/><br/><input/></div>
+        
+        </div> 
+                        <!-- tutor input -->
+        
+        
+        <div class="input3"><label>COURSES</label><br/><br/><input/></div> 
+        
+                         <!-- email input -->
+        
+        
+        <div class="input">
+        <div class="input1"> <label>EMAIL ADDRESS</label><br/><br/> <input/></div>
+        
+        <div class="input2"><label>Country &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><br/><br/><input/></div>
+        </div>      
+        
+        
+                          <!-- city input -->
+        
+        
+        <div class="input">
+        <div class="input1"> <label>City</label><br/><br/> <input/></div>
+        
+        <div class="input2"><label>Pincode</label><br/><br/><input/></div>
+        
+        </div> 
+        
+        
+                        <!-- phone input -->
+         <div class="input4"><label>PHONE NUMBER</label><br/><br/><input/></div>
+        <div class="input4"><label>Additional information, questions are request</label><br/><br/><input/></div>
+        
+        <button class="submit"><a href="./submit.html">Submit</a></button>
+        </div>
+        </div> 
+<!-- inputcard end -->
+
+
+
+
+
+
+
+
+
+<!-- footer section start -->
+
+  <footer class="footer">
+    <div class="footer1">
+        <div class=" footer11">
+        <img src="./etech.png" />
+        <h2>Etech.</h2>
+    </div>
+
+    <p>Etech academy is a leading online learning
+        plattform that offers experts-led courses, hands-on training.
+        and carrier focused education to help learner update grow and success
+        in the ever - evolving tech industry
+    </p>
+
+    </div>
+
+
+ <div class="footer2">
+    <h2>Quick Link </h2>
+      <span><i class="fa-solid fa-circle"></i>About us</span>
+      <span><i class="fa-solid fa-circle"></i>Course</span>
+      <span><i class="fa-solid fa-circle"></i>Become an instructor</span>
+      <span><i class="fa-solid fa-circle"></i>FAQS</span>
+      <span><i class="fa-solid fa-circle"></i>Contact</span>
+
+ </div>
+
+ <div class="footer2">
+    <h2>Social Media </h2>
+      <span><i class="fa-brands fa-instagram"></i>Etech@instagram</span>
+      <span><i class="fa-brands fa-facebook"></i>Etech@facebook</span>
+      <span><i class="fa-brands fa-youtube"></i>Etech@youtube</span>
+      <span><i class="fa-brands fa-x-twitter"></i>Etech@x</span>
+      <span><i class="fa-brands fa-linkedin"></i>Etech@linkedin</span>
+
+ </div>
+
+ <div class="footer3">
+   <h2>Contact:</h2>
+   <div class="footer3">
+      <p><i class="fa-solid fa-mobile-screen"></i>(629) 555-0129</p>
+      <p><i class="fa-solid fa-earth-americas"></i>2715 Ash Dr.san <br/>
+        jose, south Dakota<br/>
+    83475 </p>
+    <p><i class="fa-regular fa-envelope"></i>Example@gmail.com</p>
+</div>
+
+ </div>
+
+</footer>      
+<!-- footer section end -->
+</div>
+
+<script>
+    function toggleMenu() {
+   var menu = document.getElementById('navbar-links');
+   var icon=document.getElementById("menu-icon");
+   if (menu.style.display === 'flex') {
+       menu.style.display = 'none';
+       icon.classList.remove('fa-xmark');
+       icon.classList.add('fa-bars');
+   } else {
+       menu.style.display = 'flex';
+       icon.classList.remove('fa-bars');
+       icon.classList.add('fa-xmark')
+   }
+}
+</script>
+
+</body>
+
+</html>
+
+
+
